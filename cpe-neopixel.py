@@ -16,6 +16,6 @@ cp.pixels.brightness = 1
 
 while True:
     cp.pixels[0] = (255, 255, 255)
-    sleep(0.5)
+    sleep(1)
     cp.pixels[0] = (0, 0, 0)
-    sleep(0.5)
+    sleep(1)
