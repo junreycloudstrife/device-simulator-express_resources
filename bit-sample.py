@@ -21,4 +21,4 @@ while True:
     # display.show(Image.ALL_ARROWS, loop=True, delay=1000)
     dot = Image("90000:00000:00000:00000:00000")
     display.show(dot)
-    sleep(1)
+    # sleep(1)
