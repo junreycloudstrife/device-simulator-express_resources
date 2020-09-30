@@ -37,9 +37,8 @@ while True:
     # else:
     #     display.set_pixel(0, 0, 9)
 
-
-    # light = display.read_light_level()
-    # if light < 10:
-    #     display.show(Image("{}0000:00000:00000:00000:00000".format(light)))
-    # else:
-    #     display.show(Image("90000:00000:00000:00000:00000"))
+    light = display.read_light_level()
+    if light < 10:
+        display.show(Image("{}0000:00000:00000:00000:00000".format(light)))
+    else:
+        display.show(Image("90000:00000:00000:00000:00000"))
